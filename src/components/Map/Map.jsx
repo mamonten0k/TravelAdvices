@@ -19,7 +19,7 @@ const Map = ({ setCoordinates, setBounds, coordinates}) => {
 				options={''}
 				onChange={(e) => {
 					StCoordinates({ lat: e.center.lat, lng: e.center.lng });
-					setBounds({ ne: e.marginBounds.ne, sw: e.marginBounds.sw });
+					stBounds({ ne: e.marginBounds.ne, sw: e.marginBounds.sw });
 				  }}
 				onChildClick={''}
 			>
