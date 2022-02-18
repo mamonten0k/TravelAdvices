@@ -55,5 +55,6 @@ const App = () => {
     </>
   );
 };
-
+// style={{ maxWidth: "960px" }}
+// style={{ maxWidth: "100%" }}
 export default App;
